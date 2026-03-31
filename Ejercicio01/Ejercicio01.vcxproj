@@ -21,6 +21,11 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyListLaure.h" />
+    <ClInclude Include="MyQueueLaure.h" />
+    <ClInclude Include="MyStackLaure.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
