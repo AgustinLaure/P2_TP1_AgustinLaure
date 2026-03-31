@@ -22,9 +22,14 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyListLaure.h" />
-    <ClInclude Include="MyQueueLaure.h" />
-    <ClInclude Include="MyStackLaure.h" />
+    <ClInclude Include="src\data_structure\MyListLaure.h" />
+    <ClInclude Include="src\data_structure\MyQueueLaure.h" />
+    <ClInclude Include="src\data_structure\MyStackLaure.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MyStackLaure.tpp" />
+    <None Include="src\data_structure\MyListLaure.tpp" />
+    <None Include="src\data_structure\MyStackLaure.tpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
