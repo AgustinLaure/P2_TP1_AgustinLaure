@@ -27,8 +27,8 @@
     <ClInclude Include="src\data_structure\MyStackLaure.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MyStackLaure.tpp" />
     <None Include="src\data_structure\MyListLaure.tpp" />
+    <None Include="src\data_structure\MyQueueLaure.tpp" />
     <None Include="src\data_structure\MyStackLaure.tpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

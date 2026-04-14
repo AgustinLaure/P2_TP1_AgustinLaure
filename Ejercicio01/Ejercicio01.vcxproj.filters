@@ -28,8 +28,10 @@
     <None Include="src\data_structure\MyListLaure.tpp">
       <Filter>src\data_structure</Filter>
     </None>
-    <None Include="MyStackLaure.tpp" />
     <None Include="src\data_structure\MyStackLaure.tpp">
+      <Filter>src\data_structure</Filter>
+    </None>
+    <None Include="src\data_structure\MyQueueLaure.tpp">
       <Filter>src\data_structure</Filter>
     </None>
   </ItemGroup>

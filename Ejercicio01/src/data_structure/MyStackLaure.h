@@ -7,15 +7,15 @@ namespace MyStack
 	class MyStack
 	{
 	private:
-		class Node
-		{
-		public:
-			T data;
-			Node* prev;
-			Node(const T& value);
-		};
-
-		Node* topNode;
+		//class Node
+		//{
+		//public:
+		//	T data;
+		//	Node* prev;
+		//	Node(const T& value);
+		//};
+		//
+		//Node* topNode;
 		int count;
 	public:
 		MyStack();
@@ -28,3 +28,5 @@ namespace MyStack
 		int getCount();
 	};
 }
+
+#include "data_structure/MyStackLaure.tpp"
