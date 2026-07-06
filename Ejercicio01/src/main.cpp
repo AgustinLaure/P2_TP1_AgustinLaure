@@ -1,8 +1,10 @@
 #include "data_structure/MyStackLaure.h"
 
+using namespace MyStackLaure;
+
 int main()
 {
-	MyStack::MyStack stack = new MyStack::MyStack();
+	MyStack<int>* stack = new MyStack<int>();
 
 	return 0;
 }

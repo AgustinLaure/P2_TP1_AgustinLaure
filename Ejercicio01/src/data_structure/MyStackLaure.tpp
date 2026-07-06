@@ -1,6 +1,6 @@
 #include "MyStackLaure.h"
 
-namespace MyStack
+namespace MyStackLaure
 {
 	template<typename T>
 	MyStack<T>::MyStack::Node::Node(const T& value) : data(value), prev(nullptr) {}
