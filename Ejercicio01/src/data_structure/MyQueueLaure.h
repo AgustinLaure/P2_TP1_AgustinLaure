@@ -1,7 +1,7 @@
 #pragma once
 #include <stdexcept>
 
-namespace MyQueue
+namespace MyQueueLaure
 {
 	template<typename T>
 	class MyQueue
@@ -33,3 +33,5 @@ namespace MyQueue
 		int getCount();
 	};
 }
+
+#include "data_structure/MyQueueLaure.tpp"

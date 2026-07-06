@@ -1,6 +1,6 @@
 #include "MyQueueLaure.h"
 
-namespace MyQueue
+namespace MyQueueLaure
 {
 	template<typename T>
 	MyQueue<T>::MyQueue::Node::Node(const T& value) : data(value), next(nullptr) {}
