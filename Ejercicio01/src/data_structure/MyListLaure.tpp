@@ -1,11 +1,12 @@
 #include "MyListLaure.h"
 
-namespace MyList
+namespace MyListLaure
 {
 	template <typename T>
-	MyList<T>::Node* getNodeAt(int index)
+	MyList<T>::Node* MyList<T>::getNodeAt(int index)
 	{
 		Node* resultNode = head;
+
 		for (int i = 0; i < index; i++)
 		{
 			resultNode = resultNode->next;
@@ -17,7 +18,13 @@ namespace MyList
 	MyList<T>::MyList() : head(nullptr), tail(nullptr), count(0) {}
 
 	template <typename T>
-	MyList<T>::~MyList() {}
+	MyList<T>::~MyList()
+	{
+		if (count > 0)
+		{
+			clear();
+		}
+	}
 
 	template <typename T>
 	void MyList<T>::pushFront(const T& value)

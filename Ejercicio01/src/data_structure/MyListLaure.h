@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-namespace MyList
+namespace MyListLaure
 {
 	template <typename T>	
 
@@ -33,9 +33,11 @@ namespace MyList
 		T popBack();
 		void clear();
 		int getCount() const { return count; } inline
-			void insertAt(const T& value, int index);
+		void insertAt(const T& value, int index);
 
 		void RemoveAt(int index);
 		T& operator[](int index);
 	};
 }
+
+#include "data_structure/MyListLaure.tpp"
